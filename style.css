@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@100&family=Cinzel&family=Diplomata+SC&family=Noto+Serif&family=Smooch&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@100&family=Cinzel&family=Diplomata+SC&family=Lobster+Two&family=Noto+Serif&family=Smooch&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  background-color: gray;
+  width: 100vw;
+  height: 200vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Cinzel", serif;
+}
+#titleName {
+  background-color: violet;
+  width: 80vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid white;
+  text-align: center;
+  font-size: 1.8em;
+  font-family: "Cinzel", serif;
+}
+#titleName h1 {
+  position: absolute;
+}
+#favFood1 {
+  background-color: rgb(150, 88, 158);
+  width: 80vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid white;
+  text-align: center;
+  font-size: 1.8em;
+  font-family: "Cinzel", serif;
+}
+#favFood1 h4 {
+  font-family: "Lobster Two", cursive;
+}
+#favFood2 {
+  background-color: rgb(250, 101, 151);
+  width: 80vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid white;
+  text-align: center;
+  font-size: 1.8em;
+  font-family: "Cinzel", serif;
+}
+#favFood3 {
+  background-color: blueviolet;
+  width: 80vw;
+  height: 50vh;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid white;
+  text-align: center;
+  font-size: 1.8em;
+  font-family: "Cinzel", serif;
+}
+#titleImage {
+  height: 50vh;
+  width: 80vw;
+}
+#favFoodImage1 {
+  height: 27vh;
+  width: 35vw;
+  border: solid white;
+  padding: 2px;
+}
+#favFoodImage2 {
+  height: 27vh;
+  width: 35vw;
+  border: solid white;
+  padding: 2px;
+}
+#favFoodImage3 {
+  height: 27vh;
+  width: 35vw;
+  border: solid white;
+  padding: 2px;
+}
+#favFood1 h3 {
+  font-family: "Lobster Two", cursive;
+}
+#favFood2 h3 {
+  font-family: "Lobster Two", cursive;
+}
+#favFood3 h3 {
+  font-family: "Lobster Two", cursive;
+}
